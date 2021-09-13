@@ -1,1 +1,56 @@
-<mxfile host="app.diagrams.net" modified="2021-09-13T09:28:55.495Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" version="15.1.2" etag="kwWgTuOnCEON6EUGcoL8" type="github"><diagram id="l67NfoCJScB9mwaIJZHX">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-09-13T09:57:30.111Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="mQouGX2B4Fc1ND3P7OFu" version="15.1.2" type="github">
+  <diagram id="l67NfoCJScB9mwaIJZHX" name="Page-1">
+    <mxGraphModel dx="1662" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="3WFnPMkOmWgh5Ef72ROV-8" value="" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="260" width="20" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="3WFnPMkOmWgh5Ef72ROV-9" value="系统" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="414" y="260" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="3WFnPMkOmWgh5Ef72ROV-11" value="用户" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="275" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="3WFnPMkOmWgh5Ef72ROV-15" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="460" y="350" width="10" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="3WFnPMkOmWgh5Ef72ROV-16" value="配置yml文件" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" edge="1" target="3WFnPMkOmWgh5Ef72ROV-15" parent="1" source="3WFnPMkOmWgh5Ef72ROV-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="350" y="350" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3WFnPMkOmWgh5Ef72ROV-17" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" edge="1" source="3WFnPMkOmWgh5Ef72ROV-15" parent="1" target="3WFnPMkOmWgh5Ef72ROV-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="350" y="426" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3WFnPMkOmWgh5Ef72ROV-19" value="解析配置项" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="0.7143" y="10" relative="1" as="geometry">
+            <mxPoint x="470" y="360" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="530" y="360" />
+              <mxPoint x="530" y="380" />
+              <mxPoint x="470" y="380" />
+            </Array>
+            <mxPoint x="470" y="380" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3WFnPMkOmWgh5Ef72ROV-20" value="生成各层代码文件" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="0.8571" y="10" relative="1" as="geometry">
+            <mxPoint x="470" y="430" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="530" y="430" />
+              <mxPoint x="530" y="450" />
+              <mxPoint x="470" y="450" />
+            </Array>
+            <mxPoint x="470" y="450" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
